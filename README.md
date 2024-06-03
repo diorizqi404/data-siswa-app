@@ -48,6 +48,9 @@ Configure your username & password mysql on `conn.php`
 I Forked From
 - [Pak Suwondo](https://github.com/suwondo7)
 
+Author:
+- [Dio Rizqi](https://github.com/diorizqi404)
+
 Thanks to
 - [Glaezz](https://github.com/Glaezz)
 
