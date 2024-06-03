@@ -9,6 +9,8 @@ Aplikasi ini hasil fork dari repository Pak Suwondo dengan mengubah crud dan dat
 
 ## Run Locally
 
+You can immediately run the app without host crud on localhost. The API is online now!
+
 Clone the project
 
 ```bash
