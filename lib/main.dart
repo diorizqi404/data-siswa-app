@@ -26,7 +26,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   Future<List> getData() async {
     // Silahkan ganti URL nya sesuai HOST nya
-    var url = Uri.parse("http://10.0.2.2:88/siswa/getdata.php");
+    var url = Uri.parse("https://dev404.serv00.net/getdata.php");
     final response = await http.get(url);
     return json.decode(response.body);
   }

@@ -33,7 +33,7 @@ class _EditDataState extends State<EditData> {
 
   void editData() {
     // Silahkan ganti URL nya sesuai HOST nya
-    var url = Uri.parse("http://10.0.2.2:88/siswa/editdata.php");
+    var url = Uri.parse("https://dev404.serv00.net/editdata.php");
     http.post(url, body: {
       "nis": widget.list[widget.index]['nis'],
       "nama": controllerNama.text,

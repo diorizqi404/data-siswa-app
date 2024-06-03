@@ -19,7 +19,7 @@ class _AddDataState extends State<AddData> {
 
   void addData() {
     // Silahkan ganti URL nya sesuai HOST nya
-    var url = Uri.parse("http://10.0.2.2:88/siswa/adddata.php");
+    var url = Uri.parse("https://dev404.serv00.net/adddata.php");
     http.post(url, body: {
       "nis": controllerNis.text,
       "nama": controllerNama.text,

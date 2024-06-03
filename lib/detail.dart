@@ -24,7 +24,7 @@ class _DetailState extends State<Detail> {
 
   void deleteData() {
     // Silahkan ganti URL nya sesuai HOST nya
-    var url = Uri.parse("http://10.0.2.2:88/siswa/deletedata.php");
+    var url = Uri.parse("https://dev404.serv00.net/deletedata.php");
     http.post(url, body: {"nis": widget.list[widget.index]['nis']});
   }
 
